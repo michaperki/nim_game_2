@@ -4,7 +4,7 @@
   "description": "a simple name game using websockets.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build",
+    "build": "npm run build",
     "start": "node server/index.js"
   },
   "keywords": [
