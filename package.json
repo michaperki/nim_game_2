@@ -4,8 +4,7 @@
   "description": "a simple name game using websockets.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "cd client && npm install && npm run build",
-    "build": "vite build",
+    "build": "cd client && npm install && npm run build",
     "start": "node server/index.js"
   },
   "keywords": [
@@ -15,8 +14,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.9.8",
-    "socket.io": "^4.0.1",
-    "vite": "^2.3.8"
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.0.0"
   },
   "engines": {
     "node": "20.x"
