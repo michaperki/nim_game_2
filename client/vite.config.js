@@ -1,8 +1,8 @@
-import vite from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'; // Import defineConfig function from 'vite'
+import react from '@vitejs/plugin-react'; // Import the 'react' plugin separately
 
-export default vite.defineConfig({ 
-  plugins: [react()],
+export default defineConfig({ // Use defineConfig to define your configuration object
+  plugins: [react()], // Include the 'react' plugin in the plugins array
   server: {
     proxy: {
       '/socket.io': {
