@@ -37,7 +37,7 @@ const handleMessage = (bytes, id) => {
                     broadcastState();
                 }
             } else {
-                console.log('Player is already in the game.');
+                console.log('Player is already in the game. ');
             }
             break;
 
