@@ -2,10 +2,10 @@
   "name": "nim-game-2",
   "version": "1.0.0",
   "description": "a simple name game using websockets.",
-  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "build": "vite build",
+    "start": "node server/index.js"
   },
   "keywords": [
     "heroku"
